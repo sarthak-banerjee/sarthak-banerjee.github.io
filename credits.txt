@@ -1,7 +1,0 @@
-------------------------------------------
- CREDITS
-------------------------------------------
-
-    - Bootstrap 4   -   https://getbootstrap.com
-
-    - Font Awesome  -   https://fontawesome.com/start
