@@ -305,7 +305,7 @@ export default function Portfolio() {
           variants={fadeUp}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true }}
         >
           <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
