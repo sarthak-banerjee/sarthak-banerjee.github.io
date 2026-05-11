@@ -278,12 +278,12 @@ export default function Portfolio() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="max-w-6xl mx-auto px-6 py-24">
+          <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
               About
             </p>
 
-            <h2 className="text-4xl font-bold mb-8">
+            <h2 className="text-4xl font-bold mb-10 md:mb-14">
               Technology, consulting, and strategic problem solving.
             </h2>
 
@@ -307,12 +307,12 @@ export default function Portfolio() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="max-w-6xl mx-auto px-6 py-24">
+          <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
               Experience
             </p>
 
-            <h2 className="text-4xl font-bold mb-14">
+            <h2 className="text-4xl font-bold mb-10 md:mb-14">
               Professional Experience
             </h2>
 
@@ -362,12 +362,12 @@ export default function Portfolio() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="max-w-6xl mx-auto px-6 py-24">
+          <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
               Engagements
             </p>
 
-            <h2 className="text-4xl font-bold mb-14">
+            <h2 className="text-4xl font-bold mb-10 md:mb-14">
               Professional Engagements
             </h2>
 
@@ -398,12 +398,12 @@ export default function Portfolio() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="max-w-6xl mx-auto px-6 py-24">
+          <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
               Education
             </p>
 
-            <h2 className="text-4xl font-bold mb-14">
+            <h2 className="text-4xl font-bold mb-10 md:mb-14">
               Academic Journey
             </h2>
 
@@ -446,12 +446,12 @@ export default function Portfolio() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="max-w-6xl mx-auto px-6 py-24">
+          <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
               Projects
             </p>
 
-            <h2 className="text-4xl font-bold mb-14">
+            <h2 className="text-4xl font-bold mb-10 md:mb-14">
               Academic & Technical Projects
             </h2>
 
@@ -482,7 +482,7 @@ export default function Portfolio() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <div className="max-w-4xl mx-auto px-6 py-24 text-center">
+          <div className="max-w-4xl mx-auto px-6 py-16 md:py-24 text-center">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
               Contact
             </p>
