@@ -154,7 +154,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <div className="fixed inset-0 bg-[radial-gradient(circle_at_top,rgba(34,211,238,0.12),transparent_35%)] pointer-events-none" />
+      <div className="fixed inset-0 bg-[radial-gradient(circle_at_top,rgba(34,211,238,0.20),transparent_100%)] pointer-events-none" />
 
       <header className="sticky top-0 z-50 backdrop-blur-md border-b border-white/10 bg-black/40">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
