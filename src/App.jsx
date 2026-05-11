@@ -504,15 +504,6 @@ export default function Portfolio() {
               </a>
 
               <a
-                href="https://github.com/sarthak-banerjee"
-                target="_blank"
-                rel="noreferrer"
-                className="px-6 py-3 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition"
-              >
-                GitHub
-              </a>
-
-              <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer"
