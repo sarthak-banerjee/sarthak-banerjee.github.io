@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { Menu, X } from "lucide-react";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("about");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const sections = document.querySelectorAll("section[id]");
@@ -143,12 +145,13 @@ export default function Portfolio() {
             Sarthak Banerjee
           </h1>
 
+          {/* Desktop Nav */}
           <nav className="hidden md:flex gap-8 text-sm">
             {[
               "about",
               "experience",
-              "engagements",
               "education",
+              "engagements",
               "projects",
               "contact",
             ].map((item) => (
@@ -156,15 +159,51 @@ export default function Portfolio() {
                 key={item}
                 href={`#${item}`}
                 className={`transition capitalize ${activeSection === item
-                    ? "text-cyan-300"
-                    : "text-white/70 hover:text-cyan-300"
+                  ? "text-cyan-300"
+                  : "text-white/70 hover:text-cyan-300"
                   }`}
               >
                 {item}
               </a>
             ))}
           </nav>
+
+          {/* Mobile Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden text-white"
+          >
+            {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-white/10 bg-black/95 backdrop-blur-xl">
+            <div className="flex flex-col px-6 py-6 space-y-5">
+              {[
+                "about",
+                "experience",
+                "education",
+                "engagements",
+                "projects",
+                "contact",
+              ].map((item) => (
+                <a
+                  key={item}
+                  href={`#${item}`}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`capitalize text-lg transition ${activeSection === item
+                    ? "text-cyan-300"
+                    : "text-white/70"
+                    }`}
+                >
+                  {item}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
       </header>
 
       <main>
