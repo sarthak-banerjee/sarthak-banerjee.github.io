@@ -196,7 +196,7 @@ export default function Portfolio() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden border-t border-white/10 bg-black/95 backdrop-blur-xl">
+          <div className="md:hidden border-t border-white/10 bg-black/95 backdrop-blur-xl absolute left-0 right-0">
             <div className="flex flex-col px-6 py-6 space-y-5">
               {[
                 "about",
@@ -224,7 +224,7 @@ export default function Portfolio() {
       </header>
 
       <main>
-        <section className="max-w-6xl mx-auto px-6 pt-28 pb-24">
+        <section className="max-w-6xl mx-auto px-6 pt-20 md:pt-28 pb-12 md:pb-24">
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div>
               <div className="inline-flex items-center gap-2 border border-cyan-400/30 bg-cyan-400/10 rounded-full px-4 py-2 text-sm text-cyan-200 mb-6">
