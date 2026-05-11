@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("about");
@@ -133,7 +134,23 @@ export default function Portfolio() {
       description:
         "Developed a phishing detection extension using Python, HTML, and JavaScript with machine learning models achieving 88% SVM and 91% Random Forest precision.",
     },
+
   ];
+
+  const fadeUp = {
+    hidden: {
+      opacity: 0,
+      y: 40,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -253,9 +270,13 @@ export default function Portfolio() {
           </div>
         </section>
 
-        <section
+        <motion.section
           id="about"
           className="border-t border-white/10"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-6xl mx-auto px-6 py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
@@ -276,11 +297,15 @@ export default function Portfolio() {
               </p>
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section
+        <motion.section
           id="experience"
-          className="border-t border-white/10 bg-white/[0.02]"
+          className="border-t border-white/10"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-6xl mx-auto px-6 py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
@@ -327,11 +352,15 @@ export default function Portfolio() {
               ))}
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section
+        <motion.section
           id="engagements"
-          className="border-t border-white/10 bg-white/[0.02]"
+          className="border-t border-white/10"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-6xl mx-auto px-6 py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
@@ -359,11 +388,15 @@ export default function Portfolio() {
               ))}
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section
+        <motion.section
           id="education"
           className="border-t border-white/10"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-6xl mx-auto px-6 py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
@@ -403,11 +436,15 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section
+        <motion.section
           id="projects"
           className="border-t border-white/10"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-6xl mx-auto px-6 py-24">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
@@ -435,11 +472,15 @@ export default function Portfolio() {
               ))}
             </div>
           </div>
-        </section>
+        </motion.section>
 
-        <section
+        <motion.section
           id="contact"
           className="border-t border-white/10"
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           <div className="max-w-4xl mx-auto px-6 py-24 text-center">
             <p className="text-cyan-300 text-sm uppercase tracking-[0.3em] mb-4">
@@ -481,7 +522,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </section>
+        </motion.section>
       </main>
     </div>
   );
