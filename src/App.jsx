@@ -150,8 +150,8 @@ export default function Portfolio() {
             {[
               "about",
               "experience",
-              "education",
               "engagements",
+              "education",
               "projects",
               "contact",
             ].map((item) => (
