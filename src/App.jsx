@@ -139,7 +139,7 @@ export default function Portfolio() {
     },
     {
       label: "Top 3 in Finance Minor",
-      detail: "Out of 1,500+ students at NIIT University",
+      detail: "Out of 220+ students at NIIT University",
     },
     {
       label: "35+ Professional Certifications",
