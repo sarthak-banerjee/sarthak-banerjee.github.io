@@ -228,19 +228,17 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <div>
               <div className="inline-flex items-center gap-2 border border-cyan-400/30 bg-cyan-400/10 rounded-full px-4 py-2 text-sm text-cyan-200 mb-6">
-                Incoming MBA Candidate at NMIMS
+                NMIMS Mumbai MBA Core ’28 | Ex-IBM Security Consultant
               </div>
 
               <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight">
                 Cybersecurity Consulting.
                 <br />
-                Threat Intelligence.
-                <br />
-                Strategic Problem Solving.
+                IBM Champion Learner (Gold, 2022–2025)
               </h1>
 
               <p className="mt-8 text-lg text-white/70 leading-relaxed max-w-2xl">
-                I’m Sarthak Banerjee — an incoming MBA candidate at NMIMS and former Security Consultant at IBM. My experience spans cybersecurity consulting, SOC operations, threat intelligence, and translating complex technical challenges into business-level insights.
+                I’m Sarthak Banerjee, an MBA candidate at NMIMS Mumbai and former IBM Security Consultant. My experience spans technology consulting, cybersecurity, stakeholder engagement, and business risk management, enabling me to bridge the gap between technical execution and strategic decision-making. I am particularly interested in the intersection of AI, technology transformation, and business strategy.
               </p>
             </div>
 
@@ -251,12 +249,12 @@ export default function Portfolio() {
 
               <div className="space-y-4">
                 {[
-                  "Threat Detection & Intelligence",
-                  "SOC Operations",
-                  "Cybersecurity Consulting",
-                  "Business Risk Communication",
-                  "Automation & Detection Engineering",
-                  "Technology + Strategy",
+                  "Management Consulting",
+                  "Business Strategy",
+                  "Technology Transformation",
+                  "Stakeholder Management",
+                  "Analytics & Problem Solving",
+                  "Technology & Innovation",
                 ].map((item) => (
                   <div
                     key={item}
