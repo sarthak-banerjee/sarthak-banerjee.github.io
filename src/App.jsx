@@ -160,7 +160,7 @@ export default function Portfolio() {
             <p className="text-white/40 text-xs">threat intelligence 🔍</p>
           </div>
           <div className="col-span-12 md:col-span-5 bg-white/[0.03] border border-white/10 rounded-3xl p-6">
-            <p className="text-white/65 text-sm leading-relaxed">🛡️ 41 months at IBM leading SOC operations, building AI-driven detection systems, and advising enterprise clients across aviation, banking, and FMCG. Recognised as 🏆 Best Graduate Hire across 400+ joiners. Now pursuing my MBA at NMIMS Mumbai, focused on management consulting and strategy 🎓.</p>
+            <p className="text-white/65 text-sm leading-relaxed">📈 29.79% XIRR p.a. over 3 years across Equities, F&O, ETFs and IPOs. Backed by a Finance Minor from NIIT University - Rank 3 among 220+ students.</p>
           </div>
           <div className="col-span-12 md:col-span-3 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
             <p className="text-white/40 text-xs uppercase tracking-widest">📜 Certifications</p>
@@ -260,7 +260,7 @@ export default function Portfolio() {
               <div>
                 <h3 className="text-xl font-semibold">🎓 NIIT University</h3>
                 <p className="text-white/60 text-sm mt-2">B.Tech CSE · Minor in Finance · 7.94 CGPA · 2022</p>
-                <p className="text-white/40 text-xs mt-2">Top 3 in Finance Minor (220+ students) · Merit Scholarship</p>
+                <p className="text-white/40 text-xs mt-2">Rank 3 in Finance Minor (220+ students) · Merit Scholarship</p>
               </div>
             </div>
             <div className="col-span-12 md:col-span-4 bg-white/[0.03] border border-white/10 rounded-3xl p-7 flex flex-col">
