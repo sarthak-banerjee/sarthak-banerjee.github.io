@@ -29,65 +29,65 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      company: "IBM India Pvt. Ltd.",
+      company: "🛡️ IBM India Pvt. Ltd.",
       role: "Tech Consultant – AI & Cybersecurity",
       duration: "Sep 2022 – Apr 2026",
       points: [
-        "Recognised as the Best Graduate Hire across 400+ joiners in IBM Cybersecurity Services — an acknowledgment of both technical impact and the ability to operate at a client-facing consulting level from day one.",
-        "Grew into the Shift Lead role for a 15-member SOC team, taking ownership of daily operations, analyst mentoring, workload coordination, and maintaining 100% SLA compliance across 1,000+ security incidents.",
-        "Leveraged AI to redesign QRadar detection rules, cutting false positives by 15–35% on average and up to 80% in specific scenarios — freeing analysts to focus on real threats rather than noise.",
-        "Identified and escalated a potential data center compromise before it could cause damage — protecting infrastructure that supports over 18.5 million passengers annually.",
-        "Built Python-based automation for ticketing, IOC enrichment, and alert routing — reducing manual analyst effort by 20% and allowing the team to scale incident handling without adding headcount.",
-        "Established and led a Threat Intelligence function, synthesising intelligence from 15+ sources into over 300 advisories that helped clients stay ahead of emerging threats.",
-        "Translated complex security data into 50+ executive-facing risk dashboards — making technical threat landscapes legible and actionable for senior business stakeholders.",
-        "Managed a high-stakes migration of security operations from Kyndryl to Wipro with zero service disruption. Onboarded 200+ enterprise assets, improving overall threat visibility by 30–40%.",
-        "Designed and ran phishing simulation campaigns, then used the results to build targeted awareness programmes — cutting susceptibility rates by 80%.",
-        "Facilitated tabletop cyber crisis exercises for 7 enterprise clients including Etihad, Qatar Airways, Amul, and J&K Bank.",
+        "🏆 Recognised as the Best Graduate Hire across 400+ joiners in IBM Cybersecurity Services — an acknowledgment of both technical impact and the ability to operate at a client-facing consulting level from day one.",
+        "👥 Grew into the Shift Lead role for a 15-member SOC team, taking ownership of daily operations, analyst mentoring, workload coordination, and maintaining 100% SLA compliance across 1,000+ security incidents.",
+        "🤖 Leveraged AI to redesign QRadar detection rules, cutting false positives by 15–35% on average and up to 80% in specific scenarios — freeing analysts to focus on real threats rather than noise.",
+        "🔍 Identified and escalated a potential data center compromise before it could cause damage — protecting infrastructure that supports over 18.5 million passengers annually.",
+        "🐍 Built Python-based automation for ticketing, IOC enrichment, and alert routing — reducing manual analyst effort by 20% and allowing the team to scale incident handling without adding headcount.",
+        "📡 Established and led a Threat Intelligence function, synthesising intelligence from 15+ sources into over 300 advisories that helped clients stay ahead of emerging threats.",
+        "📊 Translated complex security data into 50+ executive-facing risk dashboards — making technical threat landscapes legible and actionable for senior business stakeholders.",
+        "🔄 Managed a high-stakes migration of security operations from Kyndryl to Wipro with zero service disruption. Onboarded 200+ enterprise assets, improving overall threat visibility by 30–40%.",
+        "🎣 Designed and ran phishing simulation campaigns, then used the results to build targeted awareness programmes — cutting susceptibility rates by 80%.",
+        "🎯 Facilitated tabletop cyber crisis exercises for 7 enterprise clients including Etihad, Qatar Airways, Amul, and J&K Bank.",
       ],
     },
     {
-      company: "Intel Corporation",
+      company: "🧠 Intel Corporation",
       role: "Summer Intern",
       duration: "May 2021 – Jul 2021",
       points: [
-        "Contributed to building Intel's AI Student Community for CBSE schools — developing learning modules for a global platform that reached 20,000+ students across 20+ countries. Proposed enhancements that increased active participation by 25%.",
-        "Delivered live sessions on data privacy and ethical hacking to audiences of 500–1,000 students per session, creating reusable educational content integrated into the community curriculum.",
+        "🌍 Contributed to building Intel's AI Student Community for CBSE schools — developing learning modules for a global platform that reached 20,000+ students across 20+ countries. Proposed enhancements that increased active participation by 25%.",
+        "🎤 Delivered live sessions on data privacy and ethical hacking to audiences of 500–1,000 students per session, creating reusable educational content integrated into the community curriculum.",
       ],
     },
     {
-      company: "Cisco Networking Academy",
+      company: "🌐 Cisco Networking Academy",
       role: "Intern",
       duration: "May 2021 – Jun 2021",
       points: [
-        "Designed a network architecture for a 1,500+ student environment, optimising the blueprint to reduce hardware requirements by 10%.",
-        "Simulated over 20 real-world cyberattack scenarios using Cisco Packet Tracer, improving overall security and threat preparedness by 30%.",
+        "🗺️ Designed a network architecture for a 1,500+ student environment, optimising the blueprint to reduce hardware requirements by 10%.",
+        "⚔️ Simulated over 20 real-world cyberattack scenarios using Cisco Packet Tracer, improving overall security and threat preparedness by 30%.",
       ],
     },
   ];
 
   const engagements = [
-    { title: "Etihad Engineering", description: "Embedded within Etihad Engineering's security operations to lead proactive threat hunting and uplift SOC capability. Rebuilt and fine-tuned QRadar detection rules from the ground up, achieving a 60–80% improvement in detection accuracy." },
-    { title: "Etihad Airways", description: "Served as a key security resource for one of the Middle East's largest carriers, managing the full spectrum of SOC operations — from real-time threat hunting and phishing investigation to incident response coordination and executive reporting." },
-    { title: "Qatar Airways", description: "Facilitated structured tabletop cyber crisis simulations for Qatar Airways, putting their incident response plans under pressure in a controlled environment and helping leadership identify gaps in their playbooks." },
-    { title: "Amul, Mass360 & J&K Bank", description: "Delivered cybersecurity risk advisory and tabletop exercise engagements across three distinct sectors — FMCG, enterprise mobility, and banking — translating technical security principles into business-level recommendations." },
+    { title: "🇦🇪 Etihad Engineering", description: "Embedded within Etihad Engineering's security operations to lead proactive threat hunting and uplift SOC capability. Rebuilt and fine-tuned QRadar detection rules from the ground up, achieving a 60–80% improvement in detection accuracy." },
+    { title: "🇦🇪 Etihad Airways", description: "Served as a key security resource for one of the Middle East's largest carriers, managing the full spectrum of SOC operations — from real-time threat hunting and phishing investigation to incident response coordination and executive reporting." },
+    { title: "🇶🇦 Qatar Airways", description: "Facilitated structured tabletop cyber crisis simulations for Qatar Airways, putting their incident response plans under pressure in a controlled environment and helping leadership identify gaps in their playbooks." },
+    { title: "🇮🇳 Amul, Mass360 & J&K Bank", description: "Delivered cybersecurity risk advisory and tabletop exercise engagements across three distinct sectors — FMCG, enterprise mobility, and banking — translating technical security principles into business-level recommendations." },
   ];
 
   const projects = [
-    { title: "ColdPhish", subtitle: "Phishing Detection Extension", description: "Browser extension using ML to detect phishing sites with 90% confidence — 88% SVM and 91% Random Forest precision." },
-    { title: "Swift Vote", subtitle: "Blockchain Voting Platform", description: "Ethereum-based voting platform with immutable vote recording, role-based access controls, and full auditability." },
-    { title: "MedCart", subtitle: "E-Commerce for Medicine", description: "Healthcare marketplace with a 4-member team — inventory, prescription validation, and Razorpay integration across 5+ user journeys." },
-    { title: "FaceMap", subtitle: "Facial Feature Detection", description: "Computer vision app using Haar Cascade classifiers for real-time facial feature detection across image and video streams." },
-    { title: "AutoTicket", subtitle: "Azure Sentinel + Serena", description: "Automated incident ticketing workflow integrating Azure Sentinel and Serena, reducing manual effort and response time by 15%." },
-    { title: "NanoCell", subtitle: "Solar Cell Research", description: "Contributed to a Nanosphere Lithography research initiative with a 12-member team. Led digital publishing and research dissemination." },
+    { title: "🎣 ColdPhish", subtitle: "Phishing Detection Extension", description: "Browser extension using ML to detect phishing sites with 90% confidence — 88% SVM and 91% Random Forest precision." },
+    { title: "🗳️ Swift Vote", subtitle: "Blockchain Voting Platform", description: "Ethereum-based voting platform with immutable vote recording, role-based access controls, and full auditability." },
+    { title: "💊 MedCart", subtitle: "E-Commerce for Medicine", description: "Healthcare marketplace with a 4-member team — inventory, prescription validation, and Razorpay integration across 5+ user journeys." },
+    { title: "🤖 FaceMap", subtitle: "Facial Feature Detection", description: "Computer vision app using Haar Cascade classifiers for real-time facial feature detection across image and video streams." },
+    { title: "⚡ AutoTicket", subtitle: "Azure Sentinel + Serena", description: "Automated incident ticketing workflow integrating Azure Sentinel and Serena, reducing manual effort and response time by 15%." },
+    { title: "🔬 NanoCell", subtitle: "Solar Cell Research", description: "Contributed to a Nanosphere Lithography research initiative with a 12-member team. Led digital publishing and research dissemination." },
   ];
 
   const achievements = [
-    { label: "Best Graduate Hire", detail: "Among 400+ graduate hires · IBM Cybersecurity Services · Recognised for outstanding performance and client-facing impact from day one" },
-    { label: "IBM Champion Learner Gold", detail: "Top 1% · 4 consecutive years" },
-    { label: "University Scholarship", detail: "NIIT University merit award" },
-    { label: "Top 3 in Finance Minor", detail: "1,500+ students · NIIT University" },
-    { label: "35+ Certifications", detail: "IBM · AWS · Microsoft · Google Cloud · Palo Alto · CompTIA" },
-    { label: "EY Offer – Cyber Automation CoE", detail: "AI Consulting · Ernst & Young" },
+    { label: "🏆 Best Graduate Hire", detail: "Among 400+ graduate hires · IBM Cybersecurity Services · Recognised for outstanding performance and client-facing impact from day one" },
+    { label: "🥇 IBM Champion Learner Gold", detail: "Top 1% · 4 consecutive years" },
+    { label: "🎓 University Scholarship", detail: "NIIT University merit award" },
+    { label: "📊 Top 3 in Finance Minor", detail: "220+ students · NIIT University" },
+    { label: "📜 35+ Certifications", detail: "IBM · AWS · Microsoft · Google Cloud · Palo Alto · CompTIA" },
+    { label: "💼 EY Offer – Cyber Automation CoE", detail: "AI Consulting · Ernst & Young" },
   ];
 
   const fadeUp = {
@@ -240,25 +240,25 @@ export default function Portfolio() {
         <motion.section id="education" variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
           <p className="text-cyan-300 text-xs uppercase tracking-[0.3em] mb-4">Education</p>
           <div className="grid grid-cols-12 gap-4">
-            <div className="col-span-12 md:col-span-3 bg-cyan-400/10 border border-cyan-400/20 rounded-3xl p-7 flex flex-col justify-between">
+            <div className="col-span-12 md:col-span-3 bg-cyan-400/10 border border-cyan-400/20 rounded-3xl p-7 flex flex-col">
               <p className="text-cyan-300 text-xs uppercase tracking-widest mb-3">Current</p>
               <div>
-                <h3 className="text-xl font-semibold">NMIMS Mumbai</h3>
+                <h3 className="text-xl font-semibold">🎓 NMIMS Mumbai</h3>
                 <p className="text-white/60 text-sm mt-2">MBA (Core) · 2026 – 2028</p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-5 bg-white/[0.03] border border-white/10 rounded-3xl p-7 flex flex-col justify-between">
+            <div className="col-span-12 md:col-span-5 bg-white/[0.03] border border-white/10 rounded-3xl p-7 flex flex-col">
               <p className="text-white/40 text-xs uppercase tracking-widest mb-3">Undergraduate</p>
               <div>
-                <h3 className="text-xl font-semibold">NIIT University</h3>
+                <h3 className="text-xl font-semibold">🎓 NIIT University</h3>
                 <p className="text-white/60 text-sm mt-2">B.Tech CSE · Minor in Finance · 7.94 CGPA · 2022</p>
-                <p className="text-white/40 text-xs mt-2">Top 3 in Finance Minor (1,500+ students) · Merit Scholarship</p>
+                <p className="text-white/40 text-xs mt-2">Top 3 in Finance Minor (220+ students) · Merit Scholarship</p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-4 bg-white/[0.03] border border-white/10 rounded-3xl p-7 flex flex-col justify-between">
+            <div className="col-span-12 md:col-span-4 bg-white/[0.03] border border-white/10 rounded-3xl p-7 flex flex-col">
               <p className="text-white/40 text-xs uppercase tracking-widest mb-3">School</p>
               <div>
-                <h3 className="text-xl font-semibold">The Mother's International School</h3>
+                <h3 className="text-xl font-semibold">🏫 The Mother's International School</h3>
                 <p className="text-white/60 text-sm mt-2">CBSE · Class XII (76.2%) · Class X (8.4 CGPA)</p>
               </div>
             </div>
@@ -290,10 +290,10 @@ export default function Portfolio() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="mailto:sarthakbanerjee@outlook.com" className="px-6 py-3 rounded-2xl bg-cyan-400 text-black font-medium hover:scale-105 transition text-sm">
-                  Email Me
+                  📩 Email Me
                 </a>
                 <a href="https://linkedin.com/in/sarthakbanerjee" target="_blank" rel="noreferrer" className="px-6 py-3 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition text-sm">
-                  LinkedIn
+                  💼 LinkedIn
                 </a>
               </div>
             </div>
