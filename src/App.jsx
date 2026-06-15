@@ -29,7 +29,8 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      company: "🛡️ IBM India Pvt. Ltd.",
+      company: "IBM India Pvt. Ltd.",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
       role: "Tech Consultant – AI & Cybersecurity",
       duration: "Sep 2022 – Apr 2026",
       points: [
@@ -46,7 +47,8 @@ export default function Portfolio() {
       ],
     },
     {
-      company: "🧠 Intel Corporation",
+      company: "Intel Corporation",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg",
       role: "Summer Intern",
       duration: "May 2021 – Jul 2021",
       points: [
@@ -55,7 +57,8 @@ export default function Portfolio() {
       ],
     },
     {
-      company: "🌐 Cisco Networking Academy",
+      company: "Cisco Networking Academy",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Cisco_logo_blue_2016.svg",
       role: "Intern",
       duration: "May 2021 – Jun 2021",
       points: [
@@ -141,28 +144,28 @@ export default function Portfolio() {
           <div className="col-span-12 md:col-span-4 bg-cyan-400/10 border border-cyan-400/20 rounded-3xl p-6 flex flex-col justify-between min-h-[200px]">
             <p className="text-cyan-300 text-xs uppercase tracking-widest">IBM Champion Learner</p>
             <div>
-              <p className="text-5xl font-bold text-cyan-300">Gold</p>
+              <p className="text-5xl font-bold text-cyan-300">🥇 Gold</p>
               <p className="text-white/60 text-sm mt-1">Top 1% globally</p>
               <p className="text-white/40 text-xs mt-1">2022–2025 · 4 consecutive years</p>
             </div>
           </div>
           <div className="col-span-6 md:col-span-2 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
-            <p className="text-white/40 text-xs uppercase tracking-widest">Incidents</p>
+            <p className="text-white/40 text-xs uppercase tracking-widest">🚨 Incidents</p>
             <p className="text-3xl font-bold">1K+</p>
-            <p className="text-white/40 text-xs">managed at IBM</p>
+            <p className="text-white/40 text-xs">managed at IBM 🛡️</p>
           </div>
           <div className="col-span-6 md:col-span-2 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
-            <p className="text-white/40 text-xs uppercase tracking-widest">Advisories</p>
+            <p className="text-white/40 text-xs uppercase tracking-widest">📡 Advisories</p>
             <p className="text-3xl font-bold">300+</p>
-            <p className="text-white/40 text-xs">threat intelligence</p>
+            <p className="text-white/40 text-xs">threat intelligence 🔍</p>
           </div>
           <div className="col-span-12 md:col-span-5 bg-white/[0.03] border border-white/10 rounded-3xl p-6">
-            <p className="text-white/65 text-sm leading-relaxed">41 months at IBM leading SOC operations, building AI-driven detection systems, and advising enterprise clients across aviation, banking, and FMCG. Recognised as Best Graduate Hire across 400+ joiners. Now pursuing my MBA at NMIMS Mumbai, focused on management consulting and strategy.</p>
+            <p className="text-white/65 text-sm leading-relaxed">🛡️ 41 months at IBM leading SOC operations, building AI-driven detection systems, and advising enterprise clients across aviation, banking, and FMCG. Recognised as 🏆 Best Graduate Hire across 400+ joiners. Now pursuing my MBA at NMIMS Mumbai, focused on management consulting and strategy 🎓.</p>
           </div>
           <div className="col-span-12 md:col-span-3 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
-            <p className="text-white/40 text-xs uppercase tracking-widest">Certifications</p>
+            <p className="text-white/40 text-xs uppercase tracking-widest">📜 Certifications</p>
             <p className="text-3xl font-bold">35+</p>
-            <p className="text-white/40 text-xs">IBM · AWS · Microsoft · Google Cloud</p>
+            <p className="text-white/40 text-xs">IBM · AWS · Microsoft · Google Cloud ☁️</p>
           </div>
         </div>
 
@@ -171,7 +174,7 @@ export default function Portfolio() {
           <p className="text-cyan-300 text-xs uppercase tracking-[0.3em] mb-4">About</p>
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 md:col-span-8 bg-white/[0.03] border border-white/10 rounded-3xl p-8">
-              <h2 className="text-3xl font-bold mb-5">Technology, consulting, and strategic problem solving.</h2>
+              <h2 className="text-3xl font-bold mb-5">💡 Technology, consulting, and strategic problem solving.</h2>
               <div className="text-white/65 leading-relaxed space-y-4 text-sm">
                 <p>Over 41 months at IBM, I worked at the intersection of cybersecurity, AI, and enterprise consulting — leading a 15-member SOC team, building AI-assisted detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
                 <p>I'm now pursuing my MBA at NMIMS Mumbai, where I'm focused on consulting, strategy, technology transformation, and operational problem-solving at enterprise scale.</p>
@@ -194,9 +197,14 @@ export default function Portfolio() {
             {experiences.map((exp) => (
               <div key={exp.company} className="border border-white/10 bg-white/[0.03] rounded-3xl p-8">
                 <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
-                  <div>
-                    <h3 className="text-xl font-semibold">{exp.company}</h3>
-                    <p className="text-white/50 text-sm mt-1">{exp.role}</p>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shrink-0 p-1.5">
+                      <img src={exp.logo} alt={exp.company} className="w-full h-full object-contain" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold">{exp.company}</h3>
+                      <p className="text-white/50 text-sm mt-1">{exp.role}</p>
+                    </div>
                   </div>
                   <span className="px-4 py-1.5 rounded-full border border-cyan-400/30 bg-cyan-400/10 text-cyan-200 text-xs">{exp.duration}</span>
                 </div>
