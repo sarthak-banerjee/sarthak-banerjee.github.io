@@ -144,8 +144,8 @@ export default function Portfolio() {
           <div className="col-span-12 md:col-span-4 bg-cyan-400/10 border border-cyan-400/20 rounded-3xl p-6 flex flex-col justify-between min-h-[200px]">
             <p className="text-cyan-300 text-xs uppercase tracking-widest">IBM Champion Learner</p>
             <div>
-              <p className="text-5xl font-bold text-cyan-300">🥇 Gold</p>
-              <p className="text-white/60 text-sm mt-1">Top 1% globally</p>
+              <p className="text-5xl font-bold text-cyan-300">Gold</p>
+              <p className="text-white/60 text-sm mt-1">🥇 Top 1% globally</p>
               <p className="text-white/40 text-xs mt-1">2022–2025 · 4 consecutive years</p>
             </div>
           </div>
