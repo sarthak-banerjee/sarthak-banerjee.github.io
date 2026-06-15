@@ -165,7 +165,7 @@ export default function Portfolio() {
           <div className="col-span-12 md:col-span-3 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
             <p className="text-white/40 text-xs uppercase tracking-widest">📜 Certifications</p>
             <p className="text-3xl font-bold">35+</p>
-            <p className="text-white/40 text-xs">IBM · AWS · Microsoft · Google Cloud ☁️</p>
+            <p className="text-white/40 text-xs">IBM · AWS · Microsoft · Google Cloud</p>
           </div>
         </div>
 
@@ -176,9 +176,9 @@ export default function Portfolio() {
             <div className="col-span-12 md:col-span-8 bg-white/[0.03] border border-white/10 rounded-3xl p-8">
               <h2 className="text-3xl font-bold mb-5">💡 Technology, consulting, and strategic problem solving.</h2>
               <div className="text-white/65 leading-relaxed space-y-4 text-sm">
-                <p>Over 41 months at IBM, I worked at the intersection of cybersecurity, AI, and enterprise consulting — leading a 15-member SOC team, building AI-assisted detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
-                <p>I'm now pursuing my MBA at NMIMS Mumbai, where I'm focused on consulting, strategy, technology transformation, and operational problem-solving at enterprise scale.</p>
-                <p>Outside of work, I founded the Astronomy Club at NIIT University, growing it to 150+ members and hosting a guest session by former ISRO leader Dr. K. Kasturirangan. I also hold 35+ professional certifications and have won recognition in creative photography, videography, and table tennis.</p>
+                <p>🛡️ Over 41 months at IBM, I worked at the intersection of cybersecurity, AI, and enterprise consulting — leading a 15-member SOC team, building AI-assisted detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
+                <p>🎓 I'm now pursuing my MBA at NMIMS Mumbai, where I'm focused on consulting, strategy, technology transformation, and operational problem-solving at enterprise scale.</p>
+                <p>🔭 Outside of work, I founded the Astronomy Club at NIIT University, growing it to 150+ members and hosting a guest session by former ISRO leader Dr. K. Kasturirangan. I also hold 35+ professional certifications and have won recognition in creative photography, videography, and table tennis.</p>
               </div>
             </div>
             <div className="col-span-12 md:col-span-4 bg-white/[0.03] border border-white/10 rounded-3xl p-8 flex flex-col gap-3">
