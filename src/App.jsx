@@ -164,7 +164,12 @@ export default function Portfolio() {
           </div>
           <div className="col-span-12 md:col-span-3 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
             <p className="text-white/40 text-xs uppercase tracking-widest">🏆 Best Graduate Hire</p>
-            <p className="text-3xl font-bold">#1</p>
+            <div className="flex items-center gap-3">
+              <div className="bg-white rounded-lg px-2 py-1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" className="h-6 object-contain" />
+              </div>
+              <p className="text-3xl font-bold">#1</p>
+            </div>
             <p className="text-white/40 text-xs">Among 400+ joiners · IBM Cybersecurity Services</p>
           </div>
         </div>
