@@ -163,9 +163,9 @@ export default function Portfolio() {
             <p className="text-white/65 text-sm leading-relaxed">📈 29.79% XIRR p.a. over 3 years across Equities, F&O, ETFs and IPOs. Backed by a Finance Minor from NIIT University - Rank 3 among 220+ students.</p>
           </div>
           <div className="col-span-12 md:col-span-3 bg-white/[0.03] border border-white/10 rounded-3xl p-5 flex flex-col justify-between">
-            <p className="text-white/40 text-xs uppercase tracking-widest">📜 Certifications</p>
-            <p className="text-3xl font-bold">35+</p>
-            <p className="text-white/40 text-xs">IBM · AWS · Microsoft · Google Cloud</p>
+            <p className="text-white/40 text-xs uppercase tracking-widest">🏆 Best Graduate Hire</p>
+            <p className="text-3xl font-bold">#1</p>
+            <p className="text-white/40 text-xs">Among 400+ joiners · IBM Cybersecurity Services</p>
           </div>
         </div>
 
