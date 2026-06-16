@@ -34,15 +34,15 @@ export default function Portfolio() {
       role: "Tech Consultant – AI & Cybersecurity",
       duration: "Sep 2022 – Apr 2026",
       points: [
-        "🏆 Recognised as the Best Graduate Hire across 400+ joiners in IBM Cybersecurity Services — an acknowledgment of both technical impact and the ability to operate at a client-facing consulting level from day one.",
+        "🏆 Recognised as the Best Graduate Hire across 400+ joiners in IBM Cybersecurity Services - an acknowledgment of both technical impact and the ability to operate at a client-facing consulting level from day one.",
         "👥 Grew into the Shift Lead role for a 15-member SOC team, taking ownership of daily operations, analyst mentoring, workload coordination, and maintaining 100% SLA compliance across 1,000+ security incidents.",
-        "🤖 Leveraged AI to redesign QRadar detection rules, cutting false positives by 15–35% on average and up to 80% in specific scenarios — freeing analysts to focus on real threats rather than noise.",
-        "🔍 Identified and escalated a potential data center compromise before it could cause damage — protecting infrastructure that supports over 18.5 million passengers annually.",
-        "🐍 Built Python-based automation for ticketing, IOC enrichment, and alert routing — reducing manual analyst effort by 20% and allowing the team to scale incident handling without adding headcount.",
+        "🤖 Leveraged AI to redesign QRadar detection rules, cutting false positives by 15-35% on average and up to 80% in specific scenarios - freeing analysts to focus on real threats rather than noise.",
+        "🔍 Identified and escalated a potential data center compromise before it could cause damage - protecting infrastructure that supports over 18.5 million passengers annually.",
+        "🐍 Built Python-based automation for ticketing, IOC enrichment, and alert routing - reducing manual analyst effort by 20% and allowing the team to scale incident handling without adding headcount.",
         "📡 Established and led a Threat Intelligence function, synthesising intelligence from 15+ sources into over 300 advisories that helped clients stay ahead of emerging threats.",
-        "📊 Translated complex security data into 50+ executive-facing risk dashboards — making technical threat landscapes legible and actionable for senior business stakeholders.",
-        "🔄 Managed a high-stakes migration of security operations from Kyndryl to Wipro with zero service disruption. Onboarded 200+ enterprise assets, improving overall threat visibility by 30–40%.",
-        "🎣 Designed and ran phishing simulation campaigns, then used the results to build targeted awareness programmes — cutting susceptibility rates by 80%.",
+        "📊 Translated complex security data into 50+ executive facing risk dashboards - making technical threat landscapes legible and actionable for senior business stakeholders.",
+        "🔄 Managed a high-stakes migration of security operations from Kyndryl to Wipro with zero service disruption. Onboarded 200+ enterprise assets, improving overall threat visibility by 30-40%.",
+        "🎣 Designed and ran phishing simulation campaigns, then used the results to build targeted awareness programmes - cutting susceptibility rates by 80%.",
         "🎯 Facilitated tabletop cyber crisis exercises for 7 enterprise clients including Etihad, Qatar Airways, Amul, and J&K Bank.",
       ],
     },
@@ -52,8 +52,8 @@ export default function Portfolio() {
       role: "Summer Intern",
       duration: "May 2021 – Jul 2021",
       points: [
-        "🌍 Contributed to building Intel's AI Student Community for CBSE schools — developing learning modules for a global platform that reached 20,000+ students across 20+ countries. Proposed enhancements that increased active participation by 25%.",
-        "🎤 Delivered live sessions on data privacy and ethical hacking to audiences of 500–1,000 students per session, creating reusable educational content integrated into the community curriculum.",
+        "🌍 Contributed to building Intel's AI Student Community for CBSE schools - developing learning modules for a global platform that reached 20,000+ students across 20+ countries. Proposed enhancements that increased active participation by 25%.",
+        "🎤 Delivered live sessions on data privacy and ethical hacking to audiences of 500-1,000 students per session, creating reusable educational content integrated into the community curriculum.",
       ],
     },
     {
@@ -63,25 +63,25 @@ export default function Portfolio() {
       duration: "May 2021 – Jun 2021",
       points: [
         "🗺️ Designed a network architecture for a 1,500+ student environment, optimising the blueprint to reduce hardware requirements by 10%.",
-        "⚔️ Simulated over 20 real-world cyberattack scenarios using Cisco Packet Tracer, improving overall security and threat preparedness by 30%.",
+        "⚔️ Simulated over 20 real world cyberattack scenarios using Cisco Packet Tracer, improving overall security and threat preparedness by 30%.",
       ],
     },
   ];
 
   const engagements = [
-    { title: "🇦🇪 Etihad Engineering", description: "Embedded within Etihad Engineering's security operations to lead proactive threat hunting and uplift SOC capability. Rebuilt and fine-tuned QRadar detection rules from the ground up, achieving a 60–80% improvement in detection accuracy." },
-    { title: "🇦🇪 Etihad Airways", description: "Served as a key security resource for one of the Middle East's largest carriers, managing the full spectrum of SOC operations — from real-time threat hunting and phishing investigation to incident response coordination and executive reporting." },
+    { title: "🇦🇪 Etihad Engineering", description: "Embedded within Etihad Engineering's security operations to lead proactive threat hunting and uplift SOC capability. Rebuilt and fine tuned QRadar detection rules from the ground up, achieving a 60-80% improvement in detection accuracy." },
+    { title: "🇦🇪 Etihad Airways", description: "Served as a key security resource for one of the Middle East's largest carriers, managing the full spectrum of SOC operations - from real time threat hunting and phishing investigation to incident response coordination and executive reporting." },
     { title: "🇶🇦 Qatar Airways", description: "Facilitated structured tabletop cyber crisis simulations for Qatar Airways, putting their incident response plans under pressure in a controlled environment and helping leadership identify gaps in their playbooks." },
-    { title: "🇮🇳 Amul, Mass360 & J&K Bank", description: "Delivered cybersecurity risk advisory and tabletop exercise engagements across three distinct sectors — FMCG, enterprise mobility, and banking — translating technical security principles into business-level recommendations." },
+    { title: "🇮🇳 Amul, Mass360 & J&K Bank", description: "Delivered cybersecurity risk advisory and tabletop exercise engagements across three distinct sectors - FMCG, enterprise mobility, and banking - translating technical security principles into business-level recommendations." },
   ];
 
   const projects = [
-    { title: "🎣 ColdPhish", subtitle: "Phishing Detection Extension", description: "Browser extension using ML to detect phishing sites with 90% confidence — 88% SVM and 91% Random Forest precision." },
+    { title: "🎣 ColdPhish", subtitle: "Phishing Detection Extension", description: "Browser extension using ML to detect phishing sites with 90% confidence - 88% SVM and 91% Random Forest precision." },
     { title: "🗳️ Swift Vote", subtitle: "Blockchain Voting Platform", description: "Ethereum-based voting platform with immutable vote recording, role-based access controls, and full auditability." },
-    { title: "💊 MedCart", subtitle: "E-Commerce for Medicine", description: "Healthcare marketplace with a 4-member team — inventory, prescription validation, and Razorpay integration across 5+ user journeys." },
+    { title: "💊 MedCart", subtitle: "E-Commerce for Medicine", description: "Healthcare marketplace with a 4-member team - inventory, prescription validation, and Razorpay integration across 5+ user journeys." },
     { title: "🤖 FaceMap", subtitle: "Facial Feature Detection", description: "Computer vision app using Haar Cascade classifiers for real-time facial feature detection across image and video streams." },
     { title: "⚡ AutoTicket", subtitle: "Azure Sentinel + Serena", description: "Automated incident ticketing workflow integrating Azure Sentinel and Serena, reducing manual effort and response time by 15%." },
-    { title: "🔬 NanoCell", subtitle: "Solar Cell Research", description: "Contributed to a Nanosphere Lithography research initiative with a 12-member team. Led digital publishing and research dissemination." },
+    { title: "🔬 NanoCell", subtitle: "Solar Cell Research", description: "Contributed to a Nanosphere Lithography research initiative with a 12 member team. Led digital publishing and research dissemination." },
   ];
 
   const achievements = [
@@ -181,8 +181,8 @@ export default function Portfolio() {
             <div className="col-span-12 md:col-span-8 bg-white/[0.03] border border-white/10 rounded-3xl p-8">
               <h2 className="text-3xl font-bold mb-5">💡 Technology, consulting, and strategic problem solving.</h2>
               <div className="text-white/65 leading-relaxed space-y-4 text-sm">
-                <p>🛡️ Over 41 months at IBM, I worked at the intersection of cybersecurity, AI, and enterprise consulting — leading a 15-member SOC team, building AI-assisted detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
-                <p>🎓 I'm now pursuing my MBA at NMIMS Mumbai, where I'm focused on consulting, strategy, technology transformation, and operational problem-solving at enterprise scale.</p>
+                <p>🛡️ Over 41 months at IBM, I worked at the intersection of cybersecurity, AI, and enterprise consulting — leading a 15 member SOC team, building AI assisted detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
+                <p>🎓 I'm now pursuing my MBA at NMIMS Mumbai, where I'm focused on consulting, strategy, technology transformation, and operational problem solving at enterprise scale.</p>
                 <p>🔭 Outside of work, I founded the Astronomy Club at NIIT University, growing it to 150+ members and hosting a guest session by former ISRO leader Dr. K. Kasturirangan. I also hold 35+ professional certifications and have won recognition in creative photography, videography, and table tennis.</p>
               </div>
             </div>
@@ -299,7 +299,7 @@ export default function Portfolio() {
               <p className="text-cyan-300 text-xs uppercase tracking-[0.3em] mb-4">Contact</p>
               <h2 className="text-4xl font-bold">Let's connect.</h2>
               <p className="mt-4 text-white/60 text-sm leading-relaxed max-w-lg">
-                Open to conversations around consulting, strategy, AI, cybersecurity, and technology-driven problem solving — whether you're a recruiter, a peer, or someone building something interesting.
+                Open to conversations around consulting, strategy, AI, cybersecurity, and technology driven problem solving - whether you're a recruiter, a peer, or someone building something interesting.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a href="mailto:sarthakbanerjee@outlook.com" className="px-6 py-3 rounded-2xl bg-cyan-400 text-black font-medium hover:scale-105 transition text-sm">
