@@ -69,10 +69,10 @@ export default function Portfolio() {
   ];
 
   const engagements = [
-    { title: "🇦🇪 Etihad Engineering", description: "Embedded within Etihad Engineering's security operations to lead proactive threat hunting and uplift SOC capability. Rebuilt and fine tuned QRadar detection rules from the ground up, achieving a 60-80% improvement in detection accuracy." },
-    { title: "🇦🇪 Etihad Airways", description: "Served as a key security resource for one of the Middle East's largest carriers, managing the full spectrum of SOC operations - from real time threat hunting and phishing investigation to incident response coordination and executive reporting." },
-    { title: "🇶🇦 Qatar Airways", description: "Facilitated structured tabletop cyber crisis simulations for Qatar Airways, putting their incident response plans under pressure in a controlled environment and helping leadership identify gaps in their playbooks." },
-    { title: "🇮🇳 Amul, Mass360 & J&K Bank", description: "Delivered cybersecurity risk advisory and tabletop exercise engagements across three distinct sectors - FMCG, enterprise mobility, and banking - translating technical security principles into business-level recommendations." },
+    { title: "Etihad Engineering", flag: "ae", description: "Embedded within Etihad Engineering's security operations to lead proactive threat hunting and uplift SOC capability. Rebuilt and fine tuned QRadar detection rules from the ground up, achieving a 60-80% improvement in detection accuracy." },
+    { title: "Etihad Airways", flag: "ae", description: "Served as a key security resource for one of the Middle East's largest carriers, managing the full spectrum of SOC operations - from real time threat hunting and phishing investigation to incident response coordination and executive reporting." },
+    { title: "Qatar Airways", flag: "qa", description: "Facilitated structured tabletop cyber crisis simulations for Qatar Airways, putting their incident response plans under pressure in a controlled environment and helping leadership identify gaps in their playbooks." },
+    { title: "Amul, Mass360 & J&K Bank", flag: "in", description: "Delivered cybersecurity risk advisory and tabletop exercise engagements across three distinct sectors - FMCG, enterprise mobility, and banking - translating technical security principles into business-level recommendations." },
   ];
 
   const projects = [
@@ -188,9 +188,16 @@ export default function Portfolio() {
             </div>
             <div className="col-span-12 md:col-span-4 bg-white/[0.03] border border-white/10 rounded-3xl p-8 flex flex-col gap-3">
               <p className="text-white/40 text-xs uppercase tracking-widest mb-2">Beyond Work</p>
-              {["🔭 Founded Astronomy Club · 150+ members", "📸 1st · Creative Photography & Videography", "🏓 3× Table Tennis Champion", "🇫🇷 French A2 · 🇩🇪 German A1"].map((item) => (
+              {["🔭 Founded Astronomy Club · 150+ members", "📸 1st · Creative Photography & Videography", "🏓 3× Table Tennis Champion"].map((item) => (
                 <div key={item} className="border border-white/10 rounded-2xl px-4 py-3 text-sm text-white/60">{item}</div>
               ))}
+              <div className="border border-white/10 rounded-2xl px-4 py-3 text-sm text-white/60 flex items-center gap-2 flex-wrap">
+                <img src="https://flagcdn.com/w40/fr.png" srcSet="https://flagcdn.com/w80/fr.png 2x" alt="France" className="w-6 h-4 object-cover rounded-sm" />
+                <span>French A2</span>
+                <span className="text-white/30">·</span>
+                <img src="https://flagcdn.com/w40/de.png" srcSet="https://flagcdn.com/w80/de.png 2x" alt="Germany" className="w-6 h-4 object-cover rounded-sm" />
+                <span>German A1</span>
+              </div>
             </div>
           </div>
         </motion.section>
@@ -229,7 +236,10 @@ export default function Portfolio() {
           <div className="grid grid-cols-12 gap-4">
             {engagements.map((eng, i) => (
               <div key={eng.title} className={`${i === 0 ? "col-span-12 md:col-span-7" : i === 1 ? "col-span-12 md:col-span-5" : i === 2 ? "col-span-12 md:col-span-5" : "col-span-12 md:col-span-7"} bg-white/[0.03] border border-white/10 rounded-3xl p-7`}>
-                <h3 className="text-lg font-semibold text-cyan-300 mb-3">{eng.title}</h3>
+                <div className="flex items-center gap-2 mb-3">
+                  <img src={`https://flagcdn.com/w40/${eng.flag}.png`} srcSet={`https://flagcdn.com/w80/${eng.flag}.png 2x`} alt={eng.flag} className="w-6 h-4 object-cover rounded-sm" />
+                  <h3 className="text-lg font-semibold text-cyan-300">{eng.title}</h3>
+                </div>
                 <p className="text-white/60 text-sm leading-relaxed">{eng.description}</p>
               </div>
             ))}
