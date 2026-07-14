@@ -34,16 +34,26 @@ export default function Portfolio() {
       role: "Tech Consultant – AI & Cybersecurity",
       duration: "Sep 2022 – Apr 2026",
       points: [
-        "🏆 Recognised as the Best Graduate Hire across 400+ joiners in IBM Cybersecurity Services - an acknowledgment of both technical impact and the ability to operate at a client-facing consulting level from day one.",
-        "👥 Grew into the Shift Lead role for a 15-member SOC team, taking ownership of daily operations, analyst mentoring, workload coordination, and maintaining 100% SLA compliance across 1,000+ security incidents.",
-        "🤖 Leveraged AI to redesign QRadar detection rules, cutting false positives by 15-35% on average and up to 80% in specific scenarios - freeing analysts to focus on real threats rather than noise.",
-        "🔍 Identified and escalated a potential data center compromise before it could cause damage - protecting infrastructure that supports over 18.5 million passengers annually.",
-        "🐍 Built Python-based automation for ticketing, IOC enrichment, and alert routing - reducing manual analyst effort by 20% and allowing the team to scale incident handling without adding headcount.",
+        "🏆 Recognised as the Best Graduate Hire across 400+ joiners in IBM Cybersecurity Services — rated top 10%ile across 1,800 employees over 10 consecutive quarterly reviews.",
+        "👥 Led a 20-member SOC team overseeing cybersecurity for 7 clients, governing 32 billion monthly security events and achieving 99.9% SLA compliance.",
+        "🤖 Engineered AI-driven threat detection models, reducing false positives by 62% and saving 1,800+ analyst hours per year — freeing the team to focus on real threats.",
+        "🔍 Identified and escalated a potential data center compromise before it could cause damage — protecting infrastructure supporting over 20 million users annually.",
+        "⚙️ Automated 30+ workflows integrating 12 platforms, increasing team productivity by 31% and eliminating 80% of manual, repetitive processes.",
         "📡 Established and led a Threat Intelligence function, synthesising intelligence from 15+ sources into over 300 advisories that helped clients stay ahead of emerging threats.",
-        "📊 Translated complex security data into 50+ executive facing risk dashboards - making technical threat landscapes legible and actionable for senior business stakeholders.",
-        "🔄 Managed a high-stakes migration of security operations from Kyndryl to Wipro with zero service disruption. Onboarded 200+ enterprise assets, improving overall threat visibility by 30-40%.",
-        "🎣 Designed and ran phishing simulation campaigns, then used the results to build targeted awareness programmes - cutting susceptibility rates by 80%.",
+        "📊 Led a 20-member team to produce 200+ executive-facing risk dashboards capturing 800+ threats across 20 million users — translating complex threat data into boardroom-ready insights.",
+        "🔄 Synergised with 35+ stakeholders to reduce operational risk by 25% and safeguard $5 billion+ in critical assets.",
+        "🎣 Designed and ran phishing simulation campaigns, then used results to build targeted awareness programmes — cutting susceptibility rates by 80%.",
         "🎯 Facilitated tabletop cyber crisis exercises for 7 enterprise clients including Etihad, Qatar Airways, Amul, and J&K Bank.",
+      ],
+    },
+    {
+      company: "IBM India Pvt. Ltd.",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+      role: "Intern",
+      duration: "Jan 2022 – Jul 2022",
+      points: [
+        "🔒 Managed 6 security events by configuring and monitoring 10+ alerts on Microsoft Sentinel for rapid threat detection with a 15-second response window.",
+        "⚙️ Designed 8 automated playbooks, reducing incident response time by 15% through streamlined workflow automation.",
       ],
     },
     {
@@ -52,8 +62,8 @@ export default function Portfolio() {
       role: "Summer Intern",
       duration: "May 2021 – Jul 2021",
       points: [
-        "🌍 Contributed to building Intel's AI Student Community for CBSE schools - developing learning modules for a global platform that reached 20,000+ students across 20+ countries. Proposed enhancements that increased active participation by 25%.",
-        "🎤 Delivered live sessions on data privacy and ethical hacking to audiences of 500-1,000 students per session, creating reusable educational content integrated into the community curriculum.",
+        "🌍 Developed Intel's AI Student Community, guiding 20,000+ students across 15+ countries and delivering 18 live workshops across 5 domains. Proposed 5 key product enhancements that increased active participation by 25%.",
+        "📊 Evaluated learner engagement across 3 KPIs, creating reusable educational content integrated into the community curriculum.",
       ],
     },
     {
@@ -87,7 +97,7 @@ export default function Portfolio() {
   const achievements = [
     { label: "🏆 Best Graduate Hire", detail: "Among 400+ graduate hires · IBM Cybersecurity Services · Recognised for outstanding performance and client-facing impact from day one" },
     { label: "🥇 IBM Champion Learner Gold", detail: "Top 1% · 4 consecutive years" },
-    { label: "🎓 University Scholarship", detail: "NIIT University merit award" },
+    { label: "🎓 University Scholarship", detail: "25% merit scholarship · Top 10% of 240-student cohort across 8 semesters · NIIT University" },
     { label: "📊 Top 3 in Finance Minor", detail: "220+ students · NIIT University" },
     { label: "📜 35+ Certifications", detail: "IBM · AWS · Microsoft · Google Cloud · Palo Alto · CompTIA" },
     { label: "💼 EY Offer – Cyber Automation CoE", detail: "AI Consulting · Ernst & Young" },
@@ -181,7 +191,7 @@ export default function Portfolio() {
             <div className="col-span-12 md:col-span-8 bg-white/[0.03] border border-white/10 rounded-3xl p-8">
               <h2 className="text-3xl font-bold mb-5">💡 Technology, consulting, and strategic problem solving.</h2>
               <div className="text-white/65 leading-relaxed space-y-4 text-sm">
-                <p>🛡️ Over 41 months at IBM, I worked at the intersection of cybersecurity, AI, and enterprise consulting - leading a 15 member SOC team, building AI assisted detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
+                <p>🛡️ Over 42 months at IBM, I worked at the intersection of cybersecurity, AI and enterprise consulting - leading a 20-member SOC team, building AI driven detection systems, and delivering risk intelligence to C-suite stakeholders at clients like Etihad, Qatar Airways, and Amul.</p>
                 <p>🎓 I'm now pursuing my MBA at NMIMS Mumbai, where I'm focused on consulting, strategy, technology transformation, and operational problem solving at enterprise scale.</p>
                 <p>🔭 Outside of work, I founded the Astronomy Club at NIIT University, growing it to 150+ members and hosting a guest session by former ISRO leader Dr. K. Kasturirangan. I also hold 35+ professional certifications and have won recognition in creative photography, videography, and table tennis.</p>
               </div>
@@ -267,7 +277,7 @@ export default function Portfolio() {
               <p className="text-cyan-300 text-xs uppercase tracking-widest mb-3">Current</p>
               <div>
                 <h3 className="text-xl font-semibold">🎓 NMIMS Mumbai</h3>
-                <p className="text-white/60 text-sm mt-2">MBA (Core) · 2026 – 2028</p>
+                <p className="text-white/60 text-sm mt-2">MBA (Core) · 2026 - 2028</p>
               </div>
             </div>
             <div className="col-span-12 md:col-span-5 bg-white/[0.03] border border-white/10 rounded-3xl p-7 flex flex-col">
