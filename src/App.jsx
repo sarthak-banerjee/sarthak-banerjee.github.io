@@ -135,7 +135,7 @@ export default function Portfolio() {
               {navItems.map((item) => (
                 <a key={item} href={`#${item}`} onClick={() => setMobileMenuOpen(false)} className={`capitalize text-lg transition ${activeSection === item ? "text-cyan-300" : "text-white/70"}`}>{item}</a>
               ))}
-              <Link to="/photography" onClick={() => setMobileMenuOpen(false)} className="text-white/70 text-lg transition">photography</Link>
+              <Link to="/photography" onClick={() => setMobileMenuOpen(false)} className="text-white/70 text-lg transition">Photography</Link>
             </div>
           </div>
         )}
