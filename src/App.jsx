@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("about");
@@ -122,6 +123,7 @@ export default function Portfolio() {
             {navItems.map((item) => (
               <a key={item} href={`#${item}`} className={`transition capitalize ${activeSection === item ? "text-cyan-300" : "text-white/70 hover:text-cyan-300"}`}>{item}</a>
             ))}
+            <Link to="/photography" className="text-white/70 hover:text-cyan-300 transition">Photography</Link>
           </nav>
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-white">
             {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -133,6 +135,7 @@ export default function Portfolio() {
               {navItems.map((item) => (
                 <a key={item} href={`#${item}`} onClick={() => setMobileMenuOpen(false)} className={`capitalize text-lg transition ${activeSection === item ? "text-cyan-300" : "text-white/70"}`}>{item}</a>
               ))}
+              <Link to="/photography" onClick={() => setMobileMenuOpen(false)} className="text-white/70 text-lg transition">photography</Link>
             </div>
           </div>
         )}
